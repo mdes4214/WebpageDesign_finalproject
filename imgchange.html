@@ -1,0 +1,41 @@
+<html> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<title>圖片切換</title> 
+</head> 
+ 
+<body>  
+
+<table><tr><td>
+ <img id="div2" src="monster/123.png" onclick="toggle2()"> 
+  <img id="div1" src="monster/b123.png" onclick="toggle3()" style="display:none"> 
+</td></tr></table>
+ 
+</body> 
+</body> 
+</html> 
+<script language="JavaScript" type="text/JavaScript"> 
+	 
+	function toggle2(){ 
+	  var name1=document.getElementById("div1"); 
+  
+	   name1.style.display='block'; 
+		
+		var name2=document.getElementById("div2"); 
+  
+	   name2.style.display='none';            
+				 
+	}  
+  
+ function toggle3(){ 
+	  var name1=document.getElementById("div1"); 
+  
+	   name1.style.display='none'; 
+		
+		var name2=document.getElementById("div2"); 
+  
+	   name2.style.display='block';            
+				 
+	}    
+	 
+</SCRIPT> 
